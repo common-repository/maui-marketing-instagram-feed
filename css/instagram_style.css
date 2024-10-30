@@ -1,0 +1,412 @@
+/* widget */
+.wrap-all-instagram-widget .wrap-instagram-widget{
+    clear:both;
+    position:relative;
+    padding: 0;
+    margin: 30px 0 30px 0;
+    overflow: hidden;
+}
+.wrap-all-instagram-widget .wrap-instagram-widget .wrap-photo-instagram-widget{
+    float:left;
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    clear:both;
+}
+.wrap-all-instagram-widget .wrap-instagram-widget .wrap-photo-instagram-widget .loading-instagram-widget{
+    text-align: center;
+}
+.wrap-all-instagram-widget .wrap-instagram-widget .wrap-photo-instagram-widget .content-photo-widget{
+    position:relative;
+    top:0;
+    left:0;
+}
+.wrap-all-instagram-widget .wrap-instagram-widget .wrap-photo-instagram-widget .content-photo-widget h5.tile-photo-instagram{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    line-height: 1.1em;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+.wrap-all-instagram-widget .wrap-instagram-widget .wrap-photo-instagram-widget .content-photo-widget .item-photo-widget{
+    width: calc( 100% / 2 - 3px );
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 3%;
+    padding: 0 1.5%;
+}
+/* end widget */
+
+/* Large desktop */
+@media (min-width: 1024px) {
+    .white_content {
+        border-radius: 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 25%;
+        width: 50%;
+        height: 53%;
+        padding: 16px;
+        border: 2px solid #8dc63f;
+        background-color: white;
+        z-index:1002;
+        overflow: auto;
+        max-height:435px;
+        height:500px;
+    }
+    .item-photo{
+        width: calc( 100% / 6 - 4px );
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 4%;
+        padding: 0 1.5%;
+    }	
+    .wrap-section-photo-instagram{
+        height:500px;
+    }	
+    .item-photo-0 {
+        margin-right: 0.5%;
+        width: calc( 100% / 3 - 4px );
+    }
+    .large-page{
+        display:block;
+    }
+    .small-page{
+        display:none;
+    }
+
+    .wrap-all-instagram{
+        clear:both;
+        overflow:hidden;
+        position:relative;
+        padding-right: 10%;
+    }
+    .updown_instagram{
+        padding-top: 15%;
+        position: absolute;
+        right: 2%;
+        top: calc(50% - 200px);
+        width: 48px;
+        z-index: 9999;
+        height:400px;
+    }
+    .close-xpopup{
+        position: absolute;
+        right: 28%;
+        top: 2%;
+        z-index: 99999;
+    }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+}
+/* ipad*/
+@media (max-width: 1024px) {
+    .white_content {
+        border-radius: 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 25%;
+        width: 50%;
+        height: 53%;
+        padding: 16px;
+        border: 2px solid #8dc63f;
+        background-color: white;
+        z-index:1002;
+        overflow: auto;
+        max-height:440px;
+        height:440px;
+    }
+    .item-photo{
+        width: calc( 100% / 5 - 3px );
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 1%;
+        padding: 0 0.5%;
+    }		
+    .item-photo-0 {
+        float: left;
+        margin-right: 1%;
+        width: 38.9% !important;
+    }
+    .wrap-section-photo-instagram{
+        height: 470px;
+    }
+    .large-page{
+        display:block;
+    }
+    .small-page{
+        display:none;
+    }
+
+    .wrap-all-instagram{
+
+        clear:both;
+        /*overflow:hidden;*/
+        position:relative;
+        padding-right: 10%;
+    }
+    .updown_instagram{
+        /*position:relative;
+        top:170px;
+        float:left;
+        width:4%;*/
+        padding-top: 10%;
+        position: absolute;
+        right: -2%;
+        top: 36%;
+        width: 48px;
+        z-index: 9999;
+        height:400px;
+    }
+    .close-xpopup{
+        position: absolute;
+        right: 28%;
+        top: 2%;
+        z-index: 99999;
+    }
+
+}
+@media (max-width: 768px) {
+    .white_content {
+        border-radius: 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 53%;
+        padding: 16px;
+        border: 2px solid #8dc63f;
+        background-color: white;
+        z-index:1002;
+        overflow: auto;
+        max-height:440px;
+        height:440px;
+    }
+    .item-photo{
+        width: calc( 100% / 2 - 3px );
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 1%;
+        padding: 0 0.5%;
+    }		
+    .item-photo-0 {
+
+        float: left;
+        margin-right: 0.8%;
+        width: 49% !important;
+    }
+    .wrap-section-photo-instagram{
+        height: 460px;
+    }
+    .large-page{
+        display:none;
+    }
+    .small-page{
+        display:block;
+    }
+
+    .wrap-all-instagram{
+
+        clear:both;
+        /*overflow:hidden;*/
+        position:relative;
+        padding-right: 10%;
+    }
+    .updown_instagram{
+        /*position:relative;
+        top:170px;
+        float:left;
+        width:4%;*/
+        padding-top: 30%;
+        position: absolute;
+        right: -2%;
+        top: 36%;
+        width: 48px;
+        z-index: 9999;
+        height:400px;
+    }
+    .close-xpopup{
+        position: absolute;
+        right: 10%;
+        top: 2%;
+        z-index: 99999;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 640px) {
+    .large-page{
+        display:block;
+    }
+    .small-page{
+        display:none;
+    }
+
+}
+@media (max-width: 360px) {
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .white_content {
+        border-radius: 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 53%;
+        padding: 16px;
+        border: 2px solid #8dc63f;
+        background-color: white;
+        z-index:1002;
+        overflow: auto;
+        max-height:490px;
+        height:490px;
+    }
+    .item-photo-0{
+        float: left;
+        margin-right: -4%;
+        width: 43% !important;
+    }
+    .item-photo{
+        display: inline-block;
+        margin-bottom: 1%;
+        margin-left: -4%;
+        margin-right: -3%;
+        padding: 0 5% 9%;
+        vertical-align: top;
+        width: calc(100% / 2 - 7%);
+    }	
+    .wrap-section-photo-instagram{
+        height: 490px;
+        margin-left: 2.5%;
+    }
+    .wrap-all-instagram{
+
+        clear:both;
+        /*overflow:hidden;*/
+        position:relative;
+        padding-right: 5%;
+    }
+    .updown_instagram{
+        /*position:relative;
+        top:170px;
+        float:left;
+        width:4%;*/
+        padding-top: 50%;
+        position: absolute;
+        right: 3%;
+        top: 36%;
+        width: 48px;
+        z-index: 9999;
+        height:400px;
+    }
+    .close-xpopup{
+        position: absolute;
+        right: 10px;
+        top: 2%;
+        z-index: 99999;
+    }
+    .large-page{
+        display:block;
+    }
+    .small-page{
+        display:none;
+    }
+}
+@media (max-width: 320px) {
+
+}
+/*End reponsive*/
+
+.item-photo-0{
+    float: left;
+
+}
+.item-caption, .item-comment-detail{
+    clear:both;
+}
+.item-caption .left-cm{
+    float:left;
+    width:30%;
+    margin-right: 5%;
+}
+.item-caption .right-cm{
+    float:left;
+    width:60%;
+}
+
+.item-comment-detail .left-cm{
+    float:left;
+    width:30%;
+    margin-right: 5%;
+}
+.item-comment-detail .right-cm{
+    float:left;
+    width:60%;
+}
+.wrap-section-photo-instagram .loading-insta{
+    display:none;
+    text-align:center;
+}
+.content-image-photo{
+    width:100%;
+}
+
+
+.item-photo-extra{
+    margin-right: 0.28%;
+}
+
+.wrap-section-photo-instagram .content-image-photo{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.wrap-section-photo-instagram{
+    float:left;
+    width:100%;
+    position:relative;
+
+    overflow:hidden;
+    clear:both;
+}
+.wrap-popup{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display:none;
+}
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}

@@ -1,0 +1,14 @@
+/* css for admin */
+.mm_login_instagram_btn{
+    display: block;
+    float: left;
+    clear: both;
+    margin: 10px 0 0 0;
+    text-decoration: none;
+    background: #517fa4;
+    padding: 10px 15px;
+    color: #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
